@@ -8,7 +8,7 @@ nocomments: true
 ---
 I am [AI Apprentice](https://www.aisingapore.org/industryinnovation/aiap/) at [AI Singapore](https://www.aisingapore.org/). I am also a part-time Master of Technology (Knowledge Engineering) Student at [Institute of System Science](https://www.iss.nus.edu.sg/), NUS. <br>
 
-I love a good read, and an avid Tennis player. <br>
+I love a good read and I am an avid Tennis player. <br>
 
 I also support Man Utd (although they have been bad in recent years), and a fan of One Piece. <br>
 
