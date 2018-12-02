@@ -1,7 +1,7 @@
 ---
 title: "Satellite Scheduling"
 date: 2016-12-18
-draft: true
+draft: false
 hero_image: "satellite-scheduling.jpg"
 ---
 # Satellite Scheduling Problem

@@ -1,7 +1,7 @@
 ---
 title: "Semantic Segmentation"
 date: 2018-10-12
-draft: true
+draft: false
 hero_image: "fantasy.jpg"
 ---
 
