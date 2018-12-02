@@ -1,6 +1,6 @@
 ---
 title: "About"
-hero_image: "img/fantasy.jpg"
+hero_image: "fantasy.jpg"
 nometadata: true
 notags: true
 noshare: true
