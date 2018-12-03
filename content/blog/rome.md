@@ -2,7 +2,7 @@
 title: "Rome"
 date: 2017-08-28
 draft: false
-hero_image: "rome.jpg"
+hero_image: "rome/rome.jpg"
 description: ""
 ---
 

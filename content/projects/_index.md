@@ -1,4 +1,8 @@
 ---
-hero_image: "fantasy.jpg"
-
+tite: "Projects"
+hero_image: "escalator.jpg"
+nometadata: true
+notags: true
+noshare: true
+nocomments: true
 ---

@@ -1,12 +1,12 @@
 ---
 title: "About"
-hero_image: "fantasy.jpg"
+hero_image: "elephant.jpg"
 nometadata: true
 notags: true
 noshare: true
 nocomments: true
 ---
-I am [AI Apprentice](https://www.aisingapore.org/industryinnovation/aiap/) at [AI Singapore](https://www.aisingapore.org/). I am also a part-time Master of Technology (Knowledge Engineering) Student at [Institute of System Science](https://www.iss.nus.edu.sg/), NUS. <br>
+I am an [AI Apprentice](https://www.aisingapore.org/industryinnovation/aiap/) at [AI Singapore](https://www.aisingapore.org/). I am also a part-time Master of Technology (Knowledge Engineering) Student at [Institute of System Science](https://www.iss.nus.edu.sg/), NUS. <br>
 
 I love a good read and I am an avid Tennis player. <br>
 
