@@ -7,11 +7,10 @@
   <!-- <meta name="theme" content="hugo-academic"> -->
   {{ .Hugo.Generator }}
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
-  <div class="site-header-content">
+  <div class="site-header-content" style="display: none">
     <h1 class="site-title">{{ if .Site.Params.logo }}
       <img class="site-logo" src="{{ .Site.Params.logo  | absURL}}" alt="{{ .Site.Params.title }}" />
     {{else}} {{ .Site.Params.title }} {{end}} </h1>
-      <h2 class="site-description">{{ .Site.Params.subtitle }} </h2>
   </div>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ printf "//fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,400italic,700|Roboto+Mono" . }}">

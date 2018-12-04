@@ -21,7 +21,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-130394448-1"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
