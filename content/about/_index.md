@@ -12,11 +12,12 @@ I love a good read and I am an avid Tennis player. <br>
 
 I also support Man Utd (although they have been bad in recent years), and a fan of One Piece. <br>
 
-Click [here](https://drive.google.com/open?id=1dSTmakM1379jCEPN2PXwkyQZi3_kvHXc) for my one-page resume.
+Click [here](https://drive.google.com/open?id=1dSTmakM1379jCEPN2PXwkyQZi3_kvHXc) for my one-page resume, and [here](https://drive.google.com/open?id=1lVyP0mWurx8khCkAdOA_mUMS3grTPP6R) for my full CV. <br>
 
 # Work Experience
-- Capability Development Engineer at ST Electronics, Jun 2016- Jun 2018.
-- Corporate Intern at Agency for Science, Technology and Research, May 2015- Jul 2015
+- AI Apprentice at AI Singapore, May 2018 - Present.
+- Capability Development Engineer at ST Electronics, Jun 2016 - May 2018.
+- Corporate Intern at Agency for Science, Technology and Research, May 2015 - Jul 2015
 
 # Education
 - BSc with Honours (Distinction), Phyiscs, National University of Singapore, 2012 - 2016

@@ -1,6 +1,6 @@
 ---
 title: "The Pinnacles of Gunung Api - Once and never again"
-date: 2018-08-14
+date: 2017-08-14
 draft: false
 hero_image: "gunung-api/gunung-api.jpg"
 ---
