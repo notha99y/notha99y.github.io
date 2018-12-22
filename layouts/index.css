@@ -452,6 +452,7 @@ nav li ul, nav li ol {
     display: none;
   }
 }
+
 .author-urls {
   position: absolute;
   z-index: -1;
@@ -522,6 +523,36 @@ nav li ul, nav li ol {
     display: none;
   }
 }
+
+@media (max-width: 64em) {
+  .author-urls::before {
+    display: none;
+  }
+  .author-urls::after {
+    display: none;
+  }
+
+  .author-urls {
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(80px,-47px);
+  }
+  .author-urls li {
+    padding: 0 4px;
+  }
+  .author-urls li a {
+    color: #ffe082;
+    text-decoration: none;
+  }
+  .author-urls li:first-child {
+    display: none;
+  }
+  .author-name {
+    color: #01579b
+  }
+
+}
+
 .author-urls li {
   white-space: nowrap;
 }
