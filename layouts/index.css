@@ -534,11 +534,13 @@ nav li ul, nav li ol {
 
   .author-urls {
     display: flex;
-    justify-content: space-evenly;
-    transform: translate(80px,-47px);
+    /* justify-content: space-evenly; */
+    transform: translate(-130px,-50px);
   }
   .author-urls li {
     padding: 0 4px;
+    width: 18px;
+    overflow: hidden;
   }
   .author-urls li a {
     color: #ffe082;
