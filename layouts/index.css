@@ -536,7 +536,8 @@ nav li ul, nav li ol {
     position: absolute;
     display: flex;
     /* justify-content: space-evenly; */
-    transform: translate(-140px,-45px);
+    transform: translate(-156px,-38px);
+    padding: 0;
   }
   .author-urls li {
     padding: 0 4px;

@@ -40,7 +40,7 @@ enableGitInfo = false
 [params]
   # Your details.
   name = "Ren Jie"
-  bio = "All men dream, but not equally"
+  bio = "All men dream, but not equally."
 
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
