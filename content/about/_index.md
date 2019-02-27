@@ -6,20 +6,22 @@ notags: true
 noshare: true
 nocomments: true
 ---
-I am an [AI Apprentice](https://www.aisingapore.org/industryinnovation/aiap/) at [AI Singapore](https://www.aisingapore.org/). I am also a part-time Master of Technology (Knowledge Engineering) Student at [Institute of System Science](https://www.iss.nus.edu.sg/), NUS. <br>
+I am an [AI Engineer] at [Defence Science and Technology Agency](https://www.dsta.gov.sg/home). I am also a part-time Master of Technology (Knowledge Engineering) Student at [Institute of System Science](https://www.iss.nus.edu.sg/), NUS. <br>
 
 I love a good read and I am an avid Tennis player. <br>
 
 I also support Man Utd (although they have been bad in recent years), and a fan of One Piece. <br>
 
-Click [here](https://drive.google.com/open?id=1dSTmakM1379jCEPN2PXwkyQZi3_kvHXc) for my one-page resume, and [here](https://drive.google.com/open?id=1lVyP0mWurx8khCkAdOA_mUMS3grTPP6R) for my full CV. <br>
+Click [here](https://drive.google.com/open?id=1QvqTAMaieKrgCNzQ9sCVDrQ6wfAR53-W) for my one-page resume, and [here](https://drive.google.com/open?id=1lVyP0mWurx8khCkAdOA_mUMS3grTPP6R) for my full CV. <br>
 
 # Work Experience
-- AI Apprentice at AI Singapore, May 2018 - Present.
+- AI Engineer at Defence Science and Technology Agency, Mar 2019 - Present.
+- AI Apprentice at AI Singapore, May 2018 - Feb 2018.
 - Capability Development Engineer at ST Electronics, Jun 2016 - May 2018.
 - Corporate Intern at Agency for Science, Technology and Research, May 2015 - Jul 2015
 
 # Education
+- MTech (Part-time), Knowledge Engineering, National University of Singapore - Institute of Systems Science, 2018 - 2020
 - BSc with Honours (Distinction), Phyiscs, National University of Singapore, 2012 - 2016
     - [Dissertation on the Geometry of Emparan-Reall Black Rings](http://www.physics.nus.edu.sg/student/Honours%20Projects%20Repository%202015-16/Tan%20RenJie.pdf)
 - Exchange Student, Physics, Chalmers University of Technology, 2014
