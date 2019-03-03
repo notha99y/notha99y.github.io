@@ -6,7 +6,7 @@ notags: true
 noshare: true
 nocomments: true
 ---
-I am an [AI Engineer] at [Defence Science and Technology Agency](https://www.dsta.gov.sg/home). I am also a part-time Master of Technology (Knowledge Engineering) Student at [Institute of System Science](https://www.iss.nus.edu.sg/), NUS. <br>
+I am an AI Engineer at [Defence Science and Technology Agency](https://www.dsta.gov.sg/home). I am also a part-time Master of Technology (Knowledge Engineering) Student at [Institute of System Science](https://www.iss.nus.edu.sg/), NUS. <br>
 
 I love a good read and I am an avid Tennis player. <br>
 
