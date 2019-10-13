@@ -22,7 +22,7 @@ Click [here](https://drive.google.com/open?id=1QvqTAMaieKrgCNzQ9sCVDrQ6wfAR53-W)
 
 # Education
 - MTech (Part-time), Knowledge Engineering, National University of Singapore - Institute of Systems Science, 2018 - 2020
-- BSc with Honours (Distinction), Phyiscs, National University of Singapore, 2012 - 2016
+- BSc with Honours (Distinction), Physics, National University of Singapore, 2012 - 2016
     - [Dissertation on the Geometry of Emparan-Reall Black Rings](http://www.physics.nus.edu.sg/student/Honours%20Projects%20Repository%202015-16/Tan%20RenJie.pdf)
 - Exchange Student, Physics, Chalmers University of Technology, 2014
 
