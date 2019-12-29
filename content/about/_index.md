@@ -12,11 +12,11 @@ I love a good read and I am an avid Tennis player. <br>
 
 I also support Man Utd (although they have been bad in recent years), and a fan of One Piece. <br>
 
-Click [here](https://drive.google.com/open?id=1QvqTAMaieKrgCNzQ9sCVDrQ6wfAR53-W) for my one-page resume, and [here](https://drive.google.com/open?id=1lVyP0mWurx8khCkAdOA_mUMS3grTPP6R) for my full CV. <br>
+Click [here](https://drive.google.com/open?id=1_QQ9OjLRomA14YQUyT1ULhhqWp1MJ1GO) for my one-page resume, and [here](https://drive.google.com/open?id=1lVyP0mWurx8khCkAdOA_mUMS3grTPP6R) for my full CV. <br>
 
 # Work Experience
 - AI Engineer at Defence Science and Technology Agency, Mar 2019 - Present.
-- AI Apprentice at AI Singapore, May 2018 - Feb 2018.
+- AI Apprentice at AI Singapore, May 2018 - Jan 2018.
 - Capability Development Engineer at ST Electronics, Jun 2016 - May 2018.
 - Corporate Intern at Agency for Science, Technology and Research, May 2015 - Jul 2015
 
