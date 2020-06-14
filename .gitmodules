@@ -1,3 +1,6 @@
 [submodule "themes/minimal-academic"]
 	path = themes/minimal-academic
 	url = https://github.com/jhu247/minimal-academic.git
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = https://github.com/panr/hugo-theme-terminal.git
