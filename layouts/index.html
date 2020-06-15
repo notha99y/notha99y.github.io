@@ -1,36 +1,45 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>{{ .Title }}</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
+    <head>
+        <title>{{ .Title }}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8
+            ]><script src="/js/ie/html5shiv.js"></script
+        ><![endif]-->
 		<link rel="stylesheet" href="/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"> -->
 
-		<!-- Header -->
-			<div id="header">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <!--[if lte IE 8
+            ]><link rel="stylesheet" href="/css/ie8.css"
+        /><![endif]-->
+        <!--[if lte IE 9
+            ]><link rel="stylesheet" href="/css/ie9.css"
+		/><![endif]-->
+		<!-- <script defer src="/themes/prologue/static/js/all.js"></script> -->
+    </head>
+    <body>
+        <!-- Header -->
+        <div id="header">
+            <div class="top">
+                <!-- Logo -->
+                <div id="logo">
+                    <span class="image avatar48"
+                        ><img src="img/avatar.jpg" alt=""
+                    /></span>
+                    <h1 id="title">{{ .Site.Params.name }}</h1>
+                    <p>{{ .Site.Params.description }}</p>
+                </div>
 
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="img/avatar.jpg" alt="" /></span>
-							<h1 id="title">{{ .Site.Params.name }}</h1>
-							<p>{{ .Site.Params.description }}</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
+                <!-- Nav -->
+                <nav id="nav">
+                    <!--
 
 								Prologue's nav expects links in one of two formats:
 
@@ -43,116 +52,185 @@
 								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 
 							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<!-- <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li> -->
-							</ul>
-						</nav>
+                    <ul>
+                        <li>
+                            <a
+                                href="#top"
+                                id="top-link"
+                                class="skel-layers-ignoreHref"
+                                ><span class="fas fa-home">Intro</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#portfolio"
+                                id="portfolio-link"
+                                class="skel-layers-ignoreHref"
+								><span class="fas fa-th">Portfolio</span>
+                        </li>
+                        <li>
+                            <a
+                                href="#about"
+                                id="about-link"
+                                class="skel-layers-ignoreHref"
+                                ><span class="fas fa-user">About Me</span></a
+                            >
+                        </li>
+                        <!-- <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li> -->
+                    </ul>
+                </nav>
+            </div>
 
-				</div>
+            <div class="bottom">
+                <!-- Social Icons -->
+                <ul class="icons">
+                    {{ range .Site.Params.social }}
+                    <!-- <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li> -->
+                    <li>
+                        <a
+                            href="{{ .link }}"
+                            class="{{ .icon }}"
+                            rel="me"
+                            ></a
+                        >
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
 
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-              {{ range .Site.Params.social }}
-			  <!-- <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li> -->
-			  <li><a href="{{ .link }}" class="icon fa-{{ .icon }}" rel="me"><span class="label">{{ .medium }}</span></a></li>
-              {{ end }}
-						</ul>
-
-				</div>
-
-			</div>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Ren Jie</strong>.</h2>
-								<p>Welcome to my site!</p>
-							</header>
-
-							<footer>
-								<a href="#portfolio" class="button scrolly">View Portfolio</a>
-							</footer>
-
-						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>Work in Progress.</p>
-
-
-              <div class="row">
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio1 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+        <!-- Main -->
+        <div id="main">
+            <!-- Intro -->
+            <section id="top" class="one dark cover">
+                <div class="container">
                     <header>
-                      <h3>{{ .title }}</h3>
+                        <h2 class="alt">Hi! I'm <strong>Ren Jie</strong>.</h2>
+                        <br />
+                        <br />
+                        <br />
+                        <!-- <p>Welcome!</p> -->
                     </header>
-                  </article>
-                  {{ end }}
-                </div>
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio2 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <footer>
+                        <!-- <a href="#portfolio" class="button scrolly">View Portfolio</a> -->
+                    </footer>
+                </div>
+            </section>
+
+            <!-- Portfolio -->
+            <section id="portfolio" class="two">
+                <div class="container">
                     <header>
-                      <h3>{{ .title }}</h3>
+                        <h2>Portfolio</h2>
+                        <h4>Work in Progress.</h4>
                     </header>
-                  </article>
-                  {{ end }}
-                </div>
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio3 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <p>
+                        But in the meantime, you can read some of the articles I
+                        wrote.
+                    </p>
+
+                    <div class="row">
+                        <div class="4u 12u$(mobile)">
+                            {{ range .Site.Params.portfolio1 }}
+                            <article class="item">
+                                <a href="{{ .url }}" class="image fit"
+                                    ><img src="{{ .source }}" alt="{{ .alt }}"
+                                /></a>
+                                <header>
+                                    <h3>{{ .title }}</h3>
+                                </header>
+                            </article>
+                            {{ end }}
+                        </div>
+
+                        <div class="4u 12u$(mobile)">
+                            {{ range .Site.Params.portfolio2 }}
+                            <article class="item">
+                                <a href="{{ .url }}" class="image fit"
+                                    ><img src="{{ .source }}" alt="{{ .alt }}"
+                                /></a>
+                                <header>
+                                    <h3>{{ .title }}</h3>
+                                </header>
+                            </article>
+                            {{ end }}
+                        </div>
+
+                        <div class="4u 12u$(mobile)">
+                            {{ range .Site.Params.portfolio3 }}
+                            <article class="item">
+                                <a href="{{ .url }}" class="image fit"
+                                    ><img src="{{ .source }}" alt="{{ .alt }}"
+                                /></a>
+                                <header>
+                                    <h3>{{ .title }}</h3>
+                                </header>
+                            </article>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Me -->
+            <section id="about" class="three">
+                <div class="container">
                     <header>
-                      <h3>{{ .title }}</h3>
+                        <h2>About Me</h2>
                     </header>
-                  </article>
-                  {{ end }}
+                    <div class="row">
+                        <div class="4u 12u$(mobile)">
+                            <article class="item">
+                                <h3>Current Employment</h3>
+                                <a
+                                    href="https://www.dsta.gov.sg/home"
+                                    class="image fit"
+                                    ><img src="img/About/dsta.jpeg" alt=""
+                                /></a>
+                                <header>
+                                    <h3>
+                                        Computer Vision Engineer (Digital Hub)
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+
+                        <div class="4u 12u$(mobile)">
+                            <article class="item">
+                                <h3>Highest Education</h3>
+                                <a
+                                    href="https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-knowledge-engineering"
+                                    class="image fit"
+                                    ><img src="img/About/nus-iss.png" alt=""
+                                /></a>
+                                <header>
+                                    <h3>MTech (Knowledge Engineering)</h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="4u 12u$(mobile)">
+							<h3>Tech Stack</h3>
+							<ul class="icons">
+								{{ range .Site.Params.techstack }}
+								<!-- <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li> -->
+								<li>
+									<a><span class="fab fa-{{ .icon }}"></span></a>
+									
+								</li>
+                            {{ end }}
+                        </div>
+                    </div>
+
+                    <!-- <a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
+
+							<p>I like sharks.</p> -->
                 </div>
-              </div>
+            </section>
 
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
-
-							<p>I like sharks.</p>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<!-- <section id="contact" class="four">
+            <!-- Contact -->
+            <!-- <section id="contact" class="four">
 						<div class="container">
 
 							<header>
@@ -179,27 +257,27 @@
 
 						</div>
 					</section> -->
+        </div>
 
-			</div>
+        <!-- Footer -->
+        <div id="footer">
+            <!-- Copyright -->
+            <ul class="copyright">
+                <li>&copy; {{ .Site.Params.copyright }}</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+            </ul>
+        </div>
 
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="/js/jquery.min.js"></script>
-			<script src="/js/jquery.scrolly.min.js"></script>
-			<script src="/js/jquery.scrollzer.min.js"></script>
-			<script src="/js/skel.min.js"></script>
-			<script src="/js/util.js"></script>
-			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/js/main.js"></script>
-
-	</body>
+        <!-- Scripts -->
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/jquery.scrolly.min.js"></script>
+        <script src="/js/jquery.scrollzer.min.js"></script>
+        <script src="/js/skel.min.js"></script>
+        <script src="/js/util.js"></script>
+        <!--[if lte IE 8
+            ]><script src="/js/ie/respond.min.js"></script
+        ><![endif]-->
+        <script src="/js/main.js"></script>
+    </body>
 </html>

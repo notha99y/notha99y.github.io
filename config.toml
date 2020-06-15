@@ -10,22 +10,22 @@ theme = "prologue"
 
 [[params.social]]
   medium = "github"
-  icon = "github"
+  icon = "fab fa-github"
   link = "https://github.com/notha99y"
 
 [[params.social]]
   medium = "linkedin"
-  icon = "linkedin"
+  icon = "fab fa-linkedin"
   link = "https://www.linkedin.com/in/renjietan/"
 
 [[params.social]]
   medium = "twitter"
-  icon = "twitter"
+  icon = "fab fa-twitter"
   link = "https://twitter.com/rahjaytee"
 
 [[params.social]]
   medium = "email"
-  icon = "envelope"
+  icon = "fas fa-envelope"
   link = "mailto:renjie.tan91@gmail.com"
 
 # [[params.social]]
@@ -41,18 +41,34 @@ theme = "prologue"
 # Portfolio column one
 
 # [[params.portfolio1]]
-#   title = "Ipsum Feugiat"
+#   title = "Breaking Down Mean Average Precision (mAP)"
 #   alt = ""
-#   source = "img/pic02.jpg"
-#   url = "#"
+#   source = "img/TDS/mAP.jpeg"
+#   url = "https://towardsdatascience.com/breaking-down-mean-average-precision-map-ae462f623a52"
 
-# [[params.portfolio1]]
-#   title = "Rhoncus Semper"
-#   alt = ""
-#   source = "img/pic03.jpg"
-#   url = "#"
+
 
 # # Portfolio column two
+
+[[params.portfolio2]]
+  title = "Breaking Down Mean Average Precision (mAP)"
+  alt = ""
+  source = "img/TDS/mAP.jpeg"
+  url = "https://towardsdatascience.com/breaking-down-mean-average-precision-map-ae462f623a52"
+
+[[params.portfolio1]]
+  title = "A Starter Pack to Exploratory Data Analysis with Python, pandas, seaborn, and scikit-learn"
+  alt = ""
+  source = "img/TDS/EDA.jpeg"
+  url = "https://towardsdatascience.com/a-starter-pack-to-exploratory-data-analysis-with-python-pandas-seaborn-and-scikit-learn-a77889485baf"
+
+[[params.portfolio3]]
+  title = "Breaking Down Mean Average Precision (mAP)"
+  alt = ""
+  source = "img/TDS/HAR.jpeg"
+  url = "https://towardsdatascience.com/6-steps-to-quickly-train-a-human-action-classifier-with-validation-accuracy-of-over-80-655fcb8781c5"
+
+
 
 # [[params.portfolio2]]
 #   title = "Magna Nullam"
@@ -66,7 +82,7 @@ theme = "prologue"
 #   source = "img/pic05.jpg"
 #   url = "#"
 
-# # Portfolio column 3
+# # # Portfolio column 3
 
 # [[params.portfolio3]]
 #   title = "Dolor Penatibus"
@@ -79,3 +95,24 @@ theme = "prologue"
 #   alt = ""
 #   source = "img/pic07.jpg"
 #   url = "#"
+
+[[params.techstack]]
+  medium = "python"
+  icon = "python"
+  link = ""
+
+[[params.techstack]]
+  medium = "git"
+  icon = "git"
+  link = ""
+
+
+[[params.techstack]]
+  medium = "linux"
+  icon = "linux"
+  link = ""
+
+  [[params.techstack]]
+  medium = "docker"
+  icon = "docker"
+  link = ""
