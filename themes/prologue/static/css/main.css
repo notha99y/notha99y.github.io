@@ -2428,10 +2428,10 @@
 				}
 
 					#headerToggle .toggle:before {
-						font-family: FontAwesome;
+						font-family:'Font Awesome\ 5 Free';;
 						text-decoration: none;
 						font-style: normal;
-						font-weight: normal;
+						font-weight: 900;
 						-webkit-font-smoothing: antialiased;
 						-moz-osx-font-smoothing: grayscale;
 						content: '\f0c9';
