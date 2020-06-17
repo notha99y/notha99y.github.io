@@ -63,7 +63,7 @@ theme = "prologue"
   url = "https://towardsdatascience.com/a-starter-pack-to-exploratory-data-analysis-with-python-pandas-seaborn-and-scikit-learn-a77889485baf"
 
 [[params.portfolio3]]
-  title = "Breaking Down Mean Average Precision (mAP)"
+  title = "How I improved a Human Action Classifier to 80% Validation Accuracy in 6 Easy Steps"
   alt = ""
   source = "img/TDS/HAR.jpeg"
   url = "https://towardsdatascience.com/6-steps-to-quickly-train-a-human-action-classifier-with-validation-accuracy-of-over-80-655fcb8781c5"
